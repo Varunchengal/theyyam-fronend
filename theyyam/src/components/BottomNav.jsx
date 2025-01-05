@@ -22,21 +22,21 @@ export default function BottomNav() {
     <div className='foot'>
     <BottomNavigation  value={value} onChange={handleChange}>
       <BottomNavigationAction
-        label="Recents"
-        value="recents"
+        label="Home"
+        value="home"
         icon={<HomeIcon />}
       />
       <BottomNavigationAction
-        label="Favorites"
-        value="favorites"
+        label="Search"
+        value="search"
         icon={<SearchIcon />}
       />
       <BottomNavigationAction
-        label="Nearby"
-        value="nearby"
+        label="Calender"
+        value="calender"
         icon={<CalendarMonthIcon />}
       />
-      <BottomNavigationAction label="Folder" value="folder" icon={<AccountCircleIcon />} />
+      <BottomNavigationAction label="Profile" value="profile" icon={<AccountCircleIcon />} />
     </BottomNavigation>
     </div>
   );
