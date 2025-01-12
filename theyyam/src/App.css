@@ -11,4 +11,38 @@
 .main-feed{
     width: 100%;
     height: 100%;
+    /* display: flex; */
+}
+.reg-main-screen{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.reg-screen{
+    width: 300px;
+    height: 600px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+   
+   border: 3px;
+   border-color: black;
+    border-radius: 19px;
+    padding-left: 28px;
+
+}
+/* .reg-item{
+    width: 300px;
+    height: 500px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+} */
+
+h2{
+    font-family: "Inter", sans-serif;
 }
